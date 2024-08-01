@@ -20,6 +20,7 @@ const connectToDB = async () => {
 connectToDB();
 
 //middleware 
+app.use(express.json());
 app.use('/api/character', require('./routes/characterRouter'))
 
 app.use((err, req, res, next) => {
