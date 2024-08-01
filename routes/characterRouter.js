@@ -1,5 +1,5 @@
 const express = require('express');
-const sauceRouter = express.Router();
+const characterRouter = express.Router();
 
 const Character = require('../models/Character');
 
